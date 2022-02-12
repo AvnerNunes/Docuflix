@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENTATION FLIX</title>
+
+    <!--FOLHA DE ESTILO CSS -->
+    <link rel="stylesheet" href="style/main.css">
+    <!-- CSS OWL-->
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <!-- CSS RESPONSIVO-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">DOCUFLIX</h2>
+            <nav>
+                <a href="">Início</a>
+                <a href="">Front-End</a>
+                <a href="">Back-End</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Front-end x Back-end</h3>
+                <p class="descricao">
+                        É verdade, as habilidades necessárias para trabalhar com back-end
+                        e front-end são muito parecidas mas, ainda assim, é preciso 
+                        alguns conhecimentos específicos inerentes a cada um, e é sobre 
+                        isso que vamos nos debruçar por aqui.
+                </p>
+                <div class="botoes">
+                    <p id="alertRedirecionamento">Você sera redirecionar para o ironhack.com</p>
+                    <button role="button" class="botao" onclick="{redirecionar()}">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrousel-filmes">
+        <h3 class="carrousel-titulo">Front-End</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://html.spec.whatwg.org/" target="_blank">
+                    <img class="box-filme" src="img/mini1.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">    
+                <a href="https://devdocs.io/css/" target="_blank">
+                    <img class="box-filme" src="img/mini2.jpg" alt="" srcset="">
+                </a>
+            </div>    
+            <div class="item">
+                <a href="https://javascript.info/" target="_blank">
+                    <img class="box-filme" src="img/mini3.jpg" alt="" srcset="">
+                </a>    
+            </div>    
+            <div class="item">
+                <a href="https://api.jquery.com/" target="_blank">
+                    <img class="box-filme" src="img/mini4.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://angular.io/docs" target="_blank">
+                    <img class="box-filme" src="img/mini5.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://vuejs.org/guide/introduction.html" target="_blank">
+                    <img class="box-filme" src="img/mini6.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank">
+                    <img class="box-filme" src="img/mini7.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank">
+                    <img class="box-filme" src="img/mini8.jpg" alt="" srcset="">
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- LINK fontawesome-->
+    <script src="https://kit.fontawesome.com/bcf9e7d01a.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
